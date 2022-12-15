@@ -3,9 +3,7 @@ package com.github.josebaperu.javabasico.model;
 public class Human {
     String gender;
     String name;
-
     String yearOfBirth;
-
     public String getGender() {
         return gender;
     }
@@ -28,5 +26,14 @@ public class Human {
 
     public void setYearOfBirth(String yearOfBirth) {
         this.yearOfBirth = yearOfBirth;
+    }
+
+    @Override
+    public String toString() {
+        return "Human{" +
+                "gender='" + gender + '\'' +
+                ", name='" + name + '\'' +
+                ", yearOfBirth='" + yearOfBirth + '\'' +
+                '}';
     }
 }
