@@ -8,7 +8,7 @@ import java.util.logging.Logger;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 @DisplayName("Ejercicios : String")
 public class StringTest {
-    private static Logger LOG = Logger.getLogger(StringTest.class.getName());
+    private static final Logger LOG = Logger.getLogger(StringTest.class.getName());
 
     @Test
     @DisplayName("Ejercicio : String")
