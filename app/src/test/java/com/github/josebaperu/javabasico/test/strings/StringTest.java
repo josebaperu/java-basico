@@ -18,4 +18,11 @@ public class StringTest {
         LOG.info("valor de name :" + name);
 
     }
+    @Test
+    @DisplayName("Ejercicio : StringMayusCula")
+    public void stringTestMayusCula() {
+        String name = "Juan Perez";
+        assertEquals("JUAN PEREZ", name.toUpperCase());
+
+    }
 }
