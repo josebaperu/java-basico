@@ -1,9 +1,7 @@
 package com.github.josebaperu.javabasico.test.strings;
 
 import org.junit.jupiter.api.Test;
-
 import java.util.logging.Logger;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StringTest {
@@ -14,6 +12,5 @@ public class StringTest {
         String name = "This is my name";
         assertEquals("This is my name", name);
         LOG.info("test OK");
-
     }
 }
