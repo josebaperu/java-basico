@@ -18,12 +18,28 @@ public class ObjectTest {
         Human human = new Human();
         human.setGender("male");
         human.setName("Carlos");
-        human.setYearOfBirth("2000");
+        human.setYearOfBirth("20000");
         assertEquals("Carlos", human.getName());
         assertEquals("male", human.getGender());
-        assertEquals("2000", human.getYearOfBirth());
+        assertEquals("20000", human.getYearOfBirth());
 
         LOG.info("human toString : " + human);
+            System.out.println("hola ");
+            //no se que hacer
+    }
+    @Test
+    @DisplayName("Ejercicio : creacion objeto dos")
+    public void objectCreationTestDos() {
+        Human human = new Human();
+        human.setGender("male");
+        human.setName("Carlos");
+        human.setYearOfBirth("20000");
+        assertEquals("Carlos", human.getName());
+        assertEquals("male", human.getGender());
+        assertEquals("20000", human.getYearOfBirth());
 
+        LOG.info("human toString : " + human);
+        System.out.println("hola ");
+        //no se que hacer
     }
 }

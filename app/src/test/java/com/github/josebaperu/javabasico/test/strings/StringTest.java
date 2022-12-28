@@ -25,4 +25,5 @@ public class StringTest {
         assertEquals("JUAN PEREZ", name.toUpperCase());
 
     }
+
 }
