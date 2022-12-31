@@ -4,6 +4,7 @@ import com.github.josebaperu.javabasico.test.strings.StringTest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.util.Scanner;
 import java.util.logging.Logger;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -20,6 +21,7 @@ public class Capitulo10 {
         LOG.info("valor de name :" + name);
 
     }
+
     @Test
     @DisplayName("Ejercicio : first")
     public void stringTestOne() {
@@ -28,6 +30,7 @@ public class Capitulo10 {
         LOG.info("valor de name :" + name);
 
     }
+
     @Test
     @DisplayName("Ejercicio : Second")
     public void stringTestSecond() {
@@ -35,8 +38,139 @@ public class Capitulo10 {
         System.out.println(Math.floor(8.2));
 
 
+    }
+
+    @Test
+    @DisplayName("Ejercicio : Third")
+    public void stringTestThird() {
+        double manzana;
+        manzana = 9.12;
+
+        System.out.print("yo quiero ");
+        System.out.print(manzana);
+        System.out.println(" peras");
+
 
     }
 
+    @Test
+    @DisplayName("Ejercicio : Fourth")
+    public void stringTestFourth() {
+        Scanner hola = new Scanner(System.in);
+        double girls, boys, people;
+        girls = 64;
+        boys = 85;
+        people = girls + boys;
+        System.out.println(people);
 
+
+    }
+
+    @Test
+    @DisplayName("Ejercicio : Fiveth")
+    public void stringTestFiveth() {
+        Scanner bucky = new Scanner(System.in);
+
+        int papa = 5;
+        int camote = 18;
+        papa -= 53;
+        System.out.println(papa);
+
+    }
+
+    @Test
+    @DisplayName("Ejercicio : SIxth")
+    public void stringTestSixth() {
+        int test = 30;
+
+        if (test < 9) {
+            System.out.println("yes");
+        } else {
+            System.out.println("la cagaste, viejo");
+        }
+
+
+    }
+
+    @Test
+    @DisplayName("Ejercicio : Seventh")
+    public void stringTestSeventh() {
+        int boy, girl;
+        boy = 18;
+        girl = 48;
+
+        if (boy > 10 || girl < 60) {
+            System.out.println("pasa pasa");
+        } else {
+            System.out.println("tu eres muy chibolo");
+        }
+    }
+
+    @Test
+    @DisplayName("Ejercicio : Eigth")
+    public void stringTestEigth() {
+        int edad;
+        edad = 30;
+
+        switch (edad) {
+            case 1:
+                System.out.println("puedes gatear");
+                break;
+            case 2:
+                System.out.println("puedes hablar");
+                break;
+            case 3:
+                System.out.println("puedes estar en problemas");
+                break;
+            default:
+                System.out.println("no se que edad tienes");
+                break;
+        }
+
+
+    }
+    @Test
+    @DisplayName("Ejercicio : Ninth")
+    public void stringTestNinth() {
+        int counter = 0;
+        while (counter < 100){
+            System.out.println(counter);
+            counter++;
+        }
+    }
+    @Test
+    @DisplayName("Ejercicio : Tenth")
+    public void stringTestTenth() {
+        System.out.println("esto es una simple clase");
+
+    }
+    @Test
+    @DisplayName("Ejercicio : Eleventh")
+    public void stringTestEleventh() {
+
+
+    }
+    @Test
+    @DisplayName("Ejercicio : Twelfth")
+    public void stringTestTwelfth(String name) {
+        System.out.println("Hola " + name);
+
+
+    }
+    @Test
+    @DisplayName("Ejercicio : Thirteenth")
+    public void stringTestThirteenth(){
+        Scanner imput = new Scanner(System.in);
+        Capitulo10   treceObject = new Capitulo10();
+
+        System.out.println("Pon tu nombre aqui");
+
+
+    }
+    @Test
+    @DisplayName("Ejercicio : Fourteenth")
+    public void stringTestFourteenth(){
+
+
+    }
 }
