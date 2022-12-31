@@ -13,7 +13,7 @@ public class importDos {
 
     @Test
     @DisplayName("Ejercicio : creacion objeto")
-    public void Alain() {
+    public void objectCreationTest() {
 
     }
 }

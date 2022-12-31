@@ -4,11 +4,12 @@ import com.github.josebaperu.javabasico.test.strings.StringTest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.util.Random;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
+import java.util.random.RandomGenerator;
 @DisplayName("Ejercicios : String")
 public class Capitulo10 {
     private static final Logger LOG = Logger.getLogger(Capitulo10.class.getName());
@@ -153,6 +154,14 @@ public class Capitulo10 {
     @Test
     @DisplayName("Ejercicio : Twelfth")
     public void stringTestTwelfth() {
+        Random dice = new Random();
+        int number;
+
+        for (int counter=1; counter <=10; counter++){
+            number = 1+dice.nextInt(6);
+            System.out.println(number + " ");
+        }
+
 
     }
 }
