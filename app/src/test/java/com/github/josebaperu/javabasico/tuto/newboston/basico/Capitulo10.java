@@ -146,31 +146,13 @@ public class Capitulo10 {
     }
     @Test
     @DisplayName("Ejercicio : Eleventh")
-    public void stringTestEleventh() {
-
+    public void stringTestEleventh(String name) {
+            System.out.println("Hola " + name);
 
     }
     @Test
     @DisplayName("Ejercicio : Twelfth")
-    public void stringTestTwelfth(String name) {
-        System.out.println("Hola " + name);
-
-
-    }
-    @Test
-    @DisplayName("Ejercicio : Thirteenth")
-    public void stringTestThirteenth(){
-        Scanner imput = new Scanner(System.in);
-        Capitulo10   treceObject = new Capitulo10();
-
-        System.out.println("Pon tu nombre aqui");
-
-
-    }
-    @Test
-    @DisplayName("Ejercicio : Fourteenth")
-    public void stringTestFourteenth(){
-
+    public void stringTestTwelfth() {
 
     }
 }
