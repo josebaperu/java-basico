@@ -164,4 +164,33 @@ public class Capitulo10 {
 
 
     }
-}
+    @Test
+    @DisplayName("Ejercicio : Thirteenth")
+    public void stringTestThirteenth() {
+        int bucky [] = new int[10];
+        bucky[0]=87;
+        bucky[1]=543;
+        bucky[9]=65;
+        System.out.println(bucky[9]);
+    }
+    //esto es lo más básico
+    @Test
+    @DisplayName("Ejercicio : FourTeenth")
+    public void stringTestFourteenth() {
+        int bucky [] = {2,4,5,7,9};
+
+        System.out.println(bucky[2]);
+    }
+    @Test
+    @DisplayName("Ejercicio : Fifteenth")
+    public void stringTestFifteenth() {
+        System.out.println("Index\tValue");
+        int bucky [] = {32,12,18,54,2};
+        for (int counter =0;counter< bucky.length;counter++){
+            System.out.println(1 + counter + "\t" + bucky [counter]);
+        }
+
+    }
+
+    }
+
