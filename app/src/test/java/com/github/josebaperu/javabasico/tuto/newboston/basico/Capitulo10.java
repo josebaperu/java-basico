@@ -191,6 +191,16 @@ public class Capitulo10 {
         }
 
     }
+    @Test
+    @DisplayName("Ejercicio : Sixteenth")
+    public void stringTestSixteenth() {
+        int bucky[] = {21,16,81,21,3};
+        int sum = 0;
 
+        for (int counter=0;counter<bucky.length;counter++){
+            sum+=bucky[counter];
+        }
+        System.out.println("La suma de esos numeros son " + sum);
+    }
     }
 
