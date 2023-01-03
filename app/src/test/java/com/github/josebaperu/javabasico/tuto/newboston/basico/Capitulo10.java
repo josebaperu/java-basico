@@ -202,5 +202,29 @@ public class Capitulo10 {
         }
         System.out.println("La suma de esos numeros son " + sum);
     }
+    @Test
+    @DisplayName("Ejercicio : Eightteenth")
+    public void stringTestEightteenth() {
+        Random rand = new Random();
+        int freq[] = new int[7];
+        for (int roll=1;roll<1000;roll++){
+            ++freq[1+rand.nextInt(6)];
+        }
+        System.out.println("Face\tFrecuency");
+        for (int face = 1;face<freq.length;face++){
+            System.out.println(face+"\t"+freq[face]);
+        }
+    }
+    @Test
+    @DisplayName("Ejercicio : Nineteenth")
+    public void stringTestNineteenth() {
+        int bucky[] = {3,4,5,6,7};
+        int total=1;
+
+        for (int x: bucky){
+            total += x;
+        }
+            System.out.println(total);
+    }
     }
 
