@@ -226,5 +226,20 @@ public class Capitulo10 {
         }
             System.out.println(total);
     }
+    @Test
+    @DisplayName("Ejercicio : Twentieth")
+    public void stringTestTwentieth() {
+        int bucky[] = {3,4,5,6,7};
+        change(bucky);
+
+        for (int y:bucky)
+            System.out.println(y);
+    }
+    public  void change (int x[]){
+        for(int counter =0;counter<x.length;counter++)
+            x[counter]+=5;
+
+    }
+
     }
 
