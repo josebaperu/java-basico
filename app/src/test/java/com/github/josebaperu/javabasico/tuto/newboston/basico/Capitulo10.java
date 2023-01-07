@@ -286,7 +286,8 @@ public class Capitulo10 {
         System.out.println(cositasObject.toMilitary());
         cositasObject.setTime(13,27,6);
         System.out.println(cositasObject.toMilitary());
-
+        System.out.println(cositasObject.toString());
+//SISTEMAS DE HORARIOS
     }
 }
 
