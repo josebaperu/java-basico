@@ -1,6 +1,5 @@
 package com.github.josebaperu.javabasico.tuto.newboston.basico;
 
-import com.github.josebaperu.javabasico.test.strings.StringTest;
 import com.github.josebaperu.javabasico.tuto.newboston.intermedio.cositas;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -10,7 +9,6 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import java.util.random.RandomGenerator;
 
 @DisplayName("Ejercicios : String")
 public class Capitulo10 {
@@ -304,10 +302,10 @@ public class Capitulo10 {
     @Test
     @DisplayName("Ejercicio : TwentyFifth")
     public void stringTestTwentyFifth() {
-        tuna tunaObject = new tuna();
-        tuna tunaObject2 = new tuna(5);
-        tuna tunaObject3 = new tuna(5, 13);
-        tuna tunaObject4 = new tuna(5, 13, 43);
+        Tuna tunaObject = new Tuna();
+        Tuna tunaObject2 = new Tuna(5);
+        Tuna tunaObject3 = new Tuna(5, 13);
+        Tuna tunaObject4 = new Tuna(5, 13, 43);
 
         System.out.printf("%s\n", tunaObject.toMilitary());
         System.out.printf("%s\n", tunaObject2.toMilitary());

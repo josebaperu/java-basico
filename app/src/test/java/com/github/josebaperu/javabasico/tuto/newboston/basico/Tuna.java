@@ -1,20 +1,20 @@
 package com.github.josebaperu.javabasico.tuto.newboston.basico;
 
-public class tuna {
+public class Tuna {
     private int hour;
     private int minute;
     private int second;
 
-    public tuna(){
+    public Tuna(){
         this(0,0,0);
     }
-    public tuna(int h){
+    public Tuna(int h){
         this(h,0,0);
     }
-    public tuna(int h, int m){
+    public Tuna(int h, int m){
         this(h,m,0);
     }
-    public tuna(int h, int m, int s){
+    public Tuna(int h, int m, int s){
         this.hour = h;
         this.minute = m;
         this.second = s;
