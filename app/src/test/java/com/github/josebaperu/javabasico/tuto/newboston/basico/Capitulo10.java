@@ -303,20 +303,18 @@ public class Capitulo10 {
 
     @Test
     @DisplayName("Ejercicio : TwentyFifth")
-    public void stringTestTwentyFifth(String[] args) {
+    public void stringTestTwentyFifth() {
         tuna tunaObject = new tuna();
         tuna tunaObject2 = new tuna(5);
         tuna tunaObject3 = new tuna(5, 13);
         tuna tunaObject4 = new tuna(5, 13, 43);
 
-        System.out.Printf("%s\n", tunaObject.toMilitary());
-        System.out.Printf("%s\n", tunaObject2.toMilitary());
-        System.out.Printf("%s\n", tunaObject3.toMilitary());
-        System.out.Printf("%s\n", tunaObject4.toMilitary());
+        System.out.printf("%s\n", tunaObject.toMilitary());
+        System.out.printf("%s\n", tunaObject2.toMilitary());
+        System.out.printf("%s\n", tunaObject3.toMilitary());
+        System.out.printf("%s\n", tunaObject4.toMilitary());
 
     }
-    /*https://www.youtube.com/watch?v=MK2SMJZbUmU&list=PLTTTcaxrixZT6v8k_QVSALXHX3KnaruuX&index=41
-        tio, por que no puedo poner el printf*/
 }
 
 
