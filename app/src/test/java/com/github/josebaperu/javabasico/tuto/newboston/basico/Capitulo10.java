@@ -267,14 +267,14 @@ public class Capitulo10 {
     @Test
     @DisplayName("Ejercicio : TwentySecondth")
     public void stringTestTwentySecondth() {
-        System.out.println(avarage(43,56,76,8,65,76,2,31));
+        System.out.println(avarage(43, 56, 76, 8, 65, 76, 2, 31));
     }
 
-    public  int avarage(int...numbers){
-        int total=0;
-        for (int x:numbers);
+    public int avarage(int... numbers) {
+        int total = 0;
+        for (int x : numbers) ;
 
-        return  total/numbers.length;
+        return total / numbers.length;
 
     }
     //me sale incorreccto "total+=x:" en la linea274
@@ -282,13 +282,42 @@ public class Capitulo10 {
     @Test
     @DisplayName("Ejercicio : TwentyThird")
     public void stringTestTwentyThird() {
-       cositas cositasObject= new cositas();
+        cositas cositasObject = new cositas();
         System.out.println(cositasObject.toMilitary());
-        cositasObject.setTime(13,27,6);
+        cositasObject.setTime(13, 27, 6);
         System.out.println(cositasObject.toMilitary());
         System.out.println(cositasObject.toString());
 //SISTEMAS DE HORARIOS
     }
+
+    @Test
+    @DisplayName("Ejercicio : TwentyFourth")
+    public void stringTestTwentyFourth() {
+        cositas cositasObject = new cositas();
+        System.out.println(cositasObject.toMilitary());
+        cositasObject.setTime(13, 27, 6);
+        System.out.println(cositasObject.toMilitary());
+        System.out.println(cositasObject.toString());
+//SISTEMAS DE HORARIOS
+    }
+
+    @Test
+    @DisplayName("Ejercicio : TwentyFifth")
+    public void stringTestTwentyFifth(String[] args) {
+        tuna tunaObject = new tuna();
+        tuna tunaObject2 = new tuna(5);
+        tuna tunaObject3 = new tuna(5, 13);
+        tuna tunaObject4 = new tuna(5, 13, 43);
+
+        System.out.Printf("%s\n", tunaObject.toMilitary());
+        System.out.Printf("%s\n", tunaObject2.toMilitary());
+        System.out.Printf("%s\n", tunaObject3.toMilitary());
+        System.out.Printf("%s\n", tunaObject4.toMilitary());
+
+    }
+    /*https://www.youtube.com/watch?v=MK2SMJZbUmU&list=PLTTTcaxrixZT6v8k_QVSALXHX3KnaruuX&index=41
+        tio, por que no puedo poner el printf*/
 }
+
 
 
