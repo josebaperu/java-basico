@@ -1,4 +1,4 @@
-package com.github.josebaperu.javabasico.tuto.newboston.basico;
+package com.github.josebaperu.javabasico.tuto.newboston.Importarlos;
 
 public class Tuna {
     private int hour;

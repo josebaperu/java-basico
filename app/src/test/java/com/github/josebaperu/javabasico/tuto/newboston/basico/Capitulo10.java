@@ -1,6 +1,9 @@
 package com.github.josebaperu.javabasico.tuto.newboston.basico;
 
-import com.github.josebaperu.javabasico.tuto.newboston.intermedio.cositas;
+import com.github.josebaperu.javabasico.tuto.newboston.Importarlos.Pipa;
+import com.github.josebaperu.javabasico.tuto.newboston.Importarlos.Pipo;
+import com.github.josebaperu.javabasico.tuto.newboston.Importarlos.Tuna;
+import com.github.josebaperu.javabasico.tuto.newboston.Importarlos.cositas;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -320,6 +323,11 @@ public class Capitulo10 {
         Pipo PipoObject = new Pipo("Carlos", PipaObject);
 
         System.out.println(PipoObject);
+    }
+    @Test
+    @DisplayName("Ejercicio : TwentySeventh")
+    public void stringTestTwentySeventh() {
+
     }
 }
 

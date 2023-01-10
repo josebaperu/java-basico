@@ -1,4 +1,4 @@
-package com.github.josebaperu.javabasico.tuto.newboston.intermedio;
+package com.github.josebaperu.javabasico.tuto.newboston.Importarlos;
 
 public class cositas {
     private int hour;

@@ -1,4 +1,4 @@
-package com.github.josebaperu.javabasico.tuto.newboston.basico;
+package com.github.josebaperu.javabasico.tuto.newboston.Importarlos;
 import com.github.josebaperu.javabasico.model.Human;
 import com.github.josebaperu.javabasico.test.strings.StringTest;
 import org.junit.jupiter.api.Test;

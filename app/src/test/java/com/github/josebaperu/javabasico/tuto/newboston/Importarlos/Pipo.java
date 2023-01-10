@@ -1,4 +1,6 @@
-package com.github.josebaperu.javabasico.tuto.newboston.basico;
+package com.github.josebaperu.javabasico.tuto.newboston.Importarlos;
+
+import com.github.josebaperu.javabasico.tuto.newboston.Importarlos.Pipa;
 
 public class Pipo {
     private String name;
