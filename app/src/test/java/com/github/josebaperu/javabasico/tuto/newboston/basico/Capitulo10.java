@@ -313,6 +313,14 @@ public class Capitulo10 {
         System.out.printf("%s\n", tunaObject4.toMilitary());
 
     }
+    @Test
+    @DisplayName("Ejercicio : TwentySixth")
+    public void stringTestTwentySixth() {
+        Pipa PipaObject = new Pipa(4,5,6);
+        Pipo PipoObject = new Pipo("Carlos", PipaObject);
+
+        System.out.println(PipoObject);
+    }
 }
 
 
