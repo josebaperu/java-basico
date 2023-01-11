@@ -13,6 +13,5 @@ public class StringTest {
         String name = "This is my name";
         assertEquals("This is my name", name);
         LOG.info("test OK");
-
     }
 }
