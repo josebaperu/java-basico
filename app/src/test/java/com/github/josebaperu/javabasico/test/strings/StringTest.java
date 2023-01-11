@@ -8,7 +8,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StringTest {
     private static Logger LOG = Logger.getLogger(StringTest.class.getName());
-
     @Test
     public void stringTest() {
         String name = "This is my name";
