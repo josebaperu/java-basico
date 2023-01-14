@@ -1,12 +1,10 @@
 package com.github.josebaperu.javabasico.tuto.newboston.basico;
 
-import com.github.josebaperu.javabasico.tuto.newboston.Importarlos.Pipa;
-import com.github.josebaperu.javabasico.tuto.newboston.Importarlos.Pipo;
-import com.github.josebaperu.javabasico.tuto.newboston.Importarlos.Tuna;
-import com.github.josebaperu.javabasico.tuto.newboston.Importarlos.cositas;
+import com.github.josebaperu.javabasico.tuto.newboston.Importarlos.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.util.EnumSet;
 import java.util.Random;
 import java.util.Scanner;
 import java.util.logging.Logger;
@@ -327,6 +325,16 @@ public class Capitulo10 {
     @Test
     @DisplayName("Ejercicio : TwentySeventh")
     public void stringTestTwentySeventh() {
+    for (Parejas people: Parejas.values())
+        System.out.printf("%s\t%s\t%s\n", people,people.getDesc(),people.getClass(), people.getYear());
+        System.out.println("\nAnd now for the range of constants!!!\n");
+        for (Parejas people: EnumSet.range(Parejas.Evelyn,Parejas.Abril))
+            System.out.printf("%s\t%s\t%s\n", people,people.getDesc(),people.getClass(), people.getYear());
+
+    }
+    @Test
+    @DisplayName("Ejercicio : TwentyEighth")
+    public void stringTestTwentyEighth() {
 
     }
 }
