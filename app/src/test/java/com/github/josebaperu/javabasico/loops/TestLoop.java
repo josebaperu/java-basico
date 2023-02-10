@@ -41,6 +41,7 @@ public class TestLoop {
     assertEquals(result, toPrint.strip());
     }
 
+
     @Test
     public void iteratorTest() {
         List list = Arrays.asList(noEmpty);
